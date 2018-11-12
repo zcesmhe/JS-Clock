@@ -1,0 +1,30 @@
+.circle {
+    
+    stroke : black;
+    stroke-width : 6;
+    fill: none;
+}
+
+.inner-circle {
+    
+    fill : black;
+}
+
+#hour-hand {
+    
+    stroke : black;
+    stroke-width : 8;
+}
+
+#min-hand {
+    
+    stroke : black;
+    stroke-width : 4;
+    
+}
+
+#sec-hand {
+    
+    stroke : red;
+    stroke-width : 2;
+}

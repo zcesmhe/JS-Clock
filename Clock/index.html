@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>My Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="title">Current Time: </h1>
+
+    <div class="clockbox">
+
+        <svg id="svg-clock" width="600" height="600">
+            
+        <circle class="circle" cx="300" cy="300" r="280"/>
+            
+        <circle class="inner-circle" cx="300" cy="300" r="8"/>
+        
+        <line id="hour-hand" x1="300" y1="300" x2="300" y2="140"/>    
+            
+        <line id="min-hand" x1="300" y1="300" x2="300" y2="60"/>
+            
+        <line id="sec-hand" x1="300" y1="300" x2="300" y2="60"/>
+                    
+        
+        </svg>
+
+    </div>
+
+
+</body>
+
+<script src="clock.js"></script>
+
+</html>
